@@ -2,8 +2,99 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    background-color: black;
+    color: whitesmoke;
 
 }
-.colnav{
-    background-color:black;
+
+/* Nav Bar Css Start */
+.navbar-nav .nav-link {
+    margin-right: 20px; /* Adjust the value as per your preference */
 }
+.mainsect{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+}
+
+.pinkbtn{
+    background-color: palevioletred;
+    color: whitesmoke;
+}
+.pinkbtn:hover{
+    background-color: rgb(151, 107, 122);
+    color: whitesmoke; 
+}
+/* Nav bar css End */
+/* Hero Banner Work Start */
+.containerflx {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    flex: 1;
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+.road{
+    color: white;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.twent24{
+    color: palevioletred;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.butset{
+    padding-top: 20PX;
+}
+.butset button{
+    border-radius: 10%;
+    width: 200px;
+    color: palevioletred;
+    background-color: transparent;
+    border: 1px solid pink;
+
+}
+.butset button:hover{
+    border-radius: 10%;
+    width: 200px;
+    color:white;
+    background-color: palevioletred;
+    border: 1px solid pink;
+
+}
+/* Hero Banner one ending */
+/* hero Banner Two start */
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.imgwidh
+{
+    width: 400px;
+    height: 300px;
+}
+.what{
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+/* hERO TWO END */
+/* AMINATION START */
